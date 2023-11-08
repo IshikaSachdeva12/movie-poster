@@ -1,0 +1,116 @@
+/*Styling the header*/
+header {
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-style: oblique;
+    font-size: larger;
+}
+
+/*Styling the h1 marquee*/
+ h1 marquee {
+    font-size:larger;
+    color: black;
+    text-shadow: #d2b1c2;
+    font-style: italic;
+    background-color: #ff9900;
+    font-size: 35px;
+    position: absolute;
+    background:linear-gradient(rgb(145, 110, 110),rgb(255, 238, 0));
+}
+
+/*Styling the article*/
+article {
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 ,0.7);
+    margin: 30px;
+    padding: 20px;
+}
+
+/*Styling the image*/
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 70px;
+    flex-direction:row;
+}
+
+/*Styling the h5*/
+h5 {
+    font-size: 50px;
+    color: rgb(43, 67, 139);
+    text-align:center;
+    font-style:oblique;
+    text-shadow: 5px 5px 5px rgb(230, 5, 5);
+    }
+
+p i b {
+    position: absolute;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #9b3a1a;
+    font-size: 18px;
+    top: 270px;
+}
+
+/*Styling the section h2*/
+section h2 {
+    font-size: 24px;
+    color: #d6dc23;
+    text-align: center;
+    position: absolute;
+    top:280px;
+    left:70px;
+}
+
+/*Styling the section p*/
+section p {
+    font-size: 17px;
+    color: #fff;
+    right: 450px;
+}
+
+/*Styling the section h4*/
+section h4 {
+    font-size: 20px;
+    color: #ff6600;
+} 
+
+/*Styling the ul li*/
+ul li{
+    list-style: none;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+}
+
+ul li a { 
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+ul li a:hover {
+    color: #ff9900;
+}
+
+/*Styling the anchor tag*/
+a {
+    text-decoration: none;
+    color: #007bff; 
+    font-style: italic;
+}
+
+/*Styling the movieposter*/
+.movieposter.jpeg {
+    background-image:url('onceupon.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    height: max-content;
+}
